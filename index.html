@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>I Luv You</title>
-    <link rel="icon" href="11.png" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <form>
-      <div class="wrapper">
-        <input type="checkbox" id="ck1" onClick="check()" />
-        <label for="ck1">I</label>
-        <input type="checkbox" id="ck2" onClick="check()" />
-        <label for="ck2">love</label>
-        <input type="checkbox" id="ck3" onClick="check()" />
-        <label for="ck3">you</label>
-        <span>(Click on words)</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yeuuu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="happy-valentines">
+    <div class="valentines-day-card">
+      <div class="clouds"></div>
+      <div class="hearts">
+        <div class="heartOne">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+        <div class="heartTwo">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+        <div class="heartThree">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+        <div class="heartFour">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+        <div class="heartFive">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
       </div>
-    </form>
-    <script>
-      function check() {
-        if (
-          document.forms[0].elements[0].checked == true &&
-          document.forms[0].elements[1].checked == true &&
-          document.forms[0].elements[2].checked == true
-        ) {
-          if (!$(".wrapper").hasClass("throb")) {
-            // Do things on Nav Close
-            $(".wrapper").addClass("throb");
-          }
-        } else {
-          if ($(".wrapper").hasClass("throb")) {
-            // Do things on Nav Close
-            $(".wrapper").removeClass("throb");
-          }
-        }
-      }
-    </script>
-  </body>
+      <div class="text"><span>Mãi Yêu</br> Quỳnh Anh!</div>
+    </div>
+  </div>
+</body>
+
 </html>
